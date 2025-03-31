@@ -1,0 +1,40 @@
+body {
+    justify-items: center;
+    align-items: center;
+    margin: 0 auto;
+    padding: none;
+}
+#board {
+    background-color: red;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-gap: 10rem;
+    border: solid;
+    border-color: blue;
+    grid-gap: 1rem;
+    width: 50em;
+    
+}
+.square {
+    min-height: 1.3em;
+    text-align: center;
+    background-color: white;
+    font-size: 5rem;
+    font-family: monospace;
+    color: black;
+}
+p {
+    gap: 10px;
+    display: flex;
+    background-color: red;
+   
+}
+button {
+    background-color: green;
+    padding-inline: 1em;
+    padding-block: 1em;
+    font-size: 20px;
+    color: red;
+    align-items: center;
+}
