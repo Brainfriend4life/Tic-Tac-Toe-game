@@ -38,3 +38,7 @@ button {
     color: red;
     align-items: center;
 }
+#status {
+font-weight: bold;
+    text-align: center;
+}
